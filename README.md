@@ -8,6 +8,25 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 
 ## CHANGELOG
+### 4.1k-TEST-20210321
+General:
+- Bump Genesis-plus-gx and Genesis-plus-gx-wide to support FM music
+- Use DinguxFileManager as default on all platforms
+- Use gptokeyb as a fake keyboard for OpenBOR
+- Support Korean language for TvTextView
+- Bump mpv to v0.33.0
+
+Additions:
+- Added gptokeyb to enable video controls on all devices with SDL support!
+- Replace jslisten with gptokeyb to kill emulators
+- Added easyrpg to es_systems.cfg
+- Added Ecwolf with support for mods
+- Added supermariowar to ports, on the first run a fake keyboard will be used, make sure you set your gamepad and restart the game, if you need to run the fake keyboard again delete /emuelec/configs/smw/nofakekeyb and run the game again.
+- Added Flycast 32bit as core option for Dreamcast/Atomiswave/Naomi
+
+Fixes:
+- Fixed some errors messages were not wrapped and could not be read
+##
 ### 4.1k-TEST-20210306
 General:
 
