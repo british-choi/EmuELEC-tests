@@ -8,6 +8,24 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 
 ## CHANGELOG
+### 4.1k-TEST-20210418
+General:
+- Use gptokeyb as a fake keyboard for OpenBOR
+- Bump Retroarch to 1.9.1
+- Bump mpv to v0.33.1
+- Bump amiberry to v4.1.2
+
+Additions:
+- Added Chocolate-Doom with support for mods
+- Added Amstrad GX4000
+
+Fixes:
+- Fixed OpenBor would not work after playing one game
+- Fixed DevilutionX character voices were wrong
+- ARM32 interpreter is now symlinked so no need for patchelf
+- Fix some TimeZones not displaying/working correctly
+- Fixed Drastic controller for RG351P
+##
 ### 4.1k-TEST-20210321
 General:
 - Bump Genesis-plus-gx and Genesis-plus-gx-wide to support FM music
