@@ -4,10 +4,40 @@ The files included in this repository are meant to be a TEST (beta) version of E
 While we do our best to test every change some changes might break your installation!  
 **DO NOT INSTALL IF YOU DO NOT FEEL COMFORTABLE DEALING WITH POTENTIAL BUGS**  
 For stable releases visit: https://github.com/british-choi/EmuELEC  
-For support: join us at discord: https://discord.gg/cbgtJTu
+For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been open for emuelec: https://emuelec.org
 
 
 ## CHANGELOG
+### 4.2k-TEST-20210605
+General:
+- Hypseus replaced by Hypseus-singe
+- Fix latest test missing libs
+- Bump RigelEnfgine to fix a bug
+- bump Retroarch to v1.9.3
+- Switch Duckstation name to Swanstation
+- Rework 32bit core detection on emuelecRunEmu.sh
+- Yabasanshiro: Revert back to 7ae0de7 as it gives much better performance
+- Added freej2me Java games emulator, it accepts .jar files and they should go into /storage/roms/freej2me. Internet is required only on first run to download the Java JDK.
+- Update most cores and emulators to latest versions
+- Add ee_fstype to set the EEROMS partitions to the desired file system, between FAT32 (default), EXT4, EXFAT and NTFS (read the warning about using NTFS). Instructions coming soon to Wiki/forum
+- Fix OGG background music
+- Update setres.sh and advmame.sh for resolution 1280x1024p60hz (PR #600)
+- Fix drastic game saves & save states erased when resetting scripts & binaries to default (PR #595)
+- Add Potator a Watara Supervision emulator core (not tested)
+- gptokeyb bump and fix missing trigger actions
+- Crystal bump to latest
+- emuelec-emulationstation bump to latest
+
+Amlogic-ng:
+- Enable qca6174 drivers (Fixes issues #611)
+
+Odroid Go Advance/Super & RG351P/V:
+- Update U-boot and Kernel
+- Use gptokeyb for controls on Solarus
+- Fix reboot while charging
+- Fix retrorun reversed analogs
+- Introduce RetroRun, available for Flycast for the moment
+##
 ### 4.1k-TEST-20210418
 General:
 - Use gptokeyb as a fake keyboard for OpenBOR
