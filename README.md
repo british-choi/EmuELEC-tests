@@ -8,7 +8,43 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 
 ## CHANGELOG
-### 4.2k-TEST-20210605
+# 4.3k-TEST-20210713
+
+General: 
+
+* Fix Autoupdate
+* Fix no backup restore if EEROMS was set to fat32
+* Fix no external ROMS if EEROMS was set to fat32
+* Fix typo on Parallel N64 32b core name
+* Unify Brightness between ES and RA
+* Fix advmame.sh: unset DISPLAY for Amlogic and Amlogic-ng
+* Fix SuperTux2: Fix sed in launch script
+* Fix vertical mode not respecting index ratio
+* Fix Connect to WiFi on first boot if using es_defaults.txt
+* Fix volume resets to 98% using AV
+* Fix Do not redirect stdout/stderr to /dev/null in maxperf and normperf. (#661)
+* Fix Do not update ppsspp assets
+* emuelecRunEmu.sh: remove hardcoded bin path, this allows to use most of the binaries/scripts be called from `/emuelec/bin` or `/usr/bin` in that order
+* Add Megadrive MSU to es_systems.cfg
+* Add fceumm-mod libretro core to play some additional NES ROM hacks. (#658)
+* New Packages: Box64, Box86, GL4es, Axe11, libglu (for future use)
+* Bump most cores and emulators to current versions
+* Bump fbneo to 886e424 (include korean hack)
+* Bump SDLPoP to v1.22
+* Bump sonic2013 to c3be493
+* Bump soniccd to 129cd86
+* Bump devilutionX to 72e888c
+* Bump Retroarch to 1.9.6
+* Bump ppsspp to eb0f0d3 (fix some korean character is broken in settings)
+* Bump VVVVVV to 95ffc3a
+
+Amlogic-ng: 
+
+* Add preliminary support for Raxda Zero (But not support korean version)
+
+
+
+# 4.2k-TEST-20210605
 General:
 - Hypseus replaced by Hypseus-singe
 - Fix latest test missing libs
@@ -37,8 +73,10 @@ Odroid Go Advance/Super & RG351P/V:
 - Fix reboot while charging
 - Fix retrorun reversed analogs
 - Introduce RetroRun, available for Flycast for the moment
-##
-### 4.1k-TEST-20210418
+
+
+
+# 4.1k-TEST-20210418
 General:
 - Use gptokeyb as a fake keyboard for OpenBOR
 - Bump Retroarch to 1.9.1
@@ -55,8 +93,10 @@ Fixes:
 - ARM32 interpreter is now symlinked so no need for patchelf
 - Fix some TimeZones not displaying/working correctly
 - Fixed Drastic controller for RG351P
-##
-### 4.1k-TEST-20210321
+
+
+
+# 4.1k-TEST-20210321
 General:
 - Bump Genesis-plus-gx and Genesis-plus-gx-wide to support FM music
 - Use DinguxFileManager as default on all platforms
@@ -74,8 +114,10 @@ Additions:
 
 Fixes:
 - Fixed some errors messages were not wrapped and could not be read
-##
-### 4.1k-TEST-20210306
+
+
+
+# 4.1k-TEST-20210306
 General:
 
 - Emulationstation: While in a game list, pressing X will move to a random game, holding X will mark it as favorite (thanks to @lethal-guitar)
@@ -123,9 +165,10 @@ If you use custom scripts /emuelec/bin and /emuelec/lib are still in the path so
 All configurations regarding emuelec will still be handled in /emuelec/config
 
 #### Note that this is probably not final, I still need to do a lot of testing, but keep that in mind if you want to update
-##
 
-### 4.1k-TEST-20210221
+
+
+# 4.1k-TEST-20210221
 - Emulationstation: While in a game list, pressing X will move to a random game, holding X will mark it as favorite (thanks to @lethal-guitar)
 - Fixed many script that were causing hangups or other issues
 - Fixed gamecontrollerdb.sh it will now replace the UUID from the one in the db, this fixes weird controllers that use the same UUID as others (but are not the same)
