@@ -8,6 +8,16 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 
 ## CHANGELOG
+
+# 4.3k-TEST-20210723
+General:
+
+* Add Flycast Stand Alone 
+* Add Alternate version of Mupen64plus-nx
+* Replace old filemanager for 351Files
+* Fix Amstrad GX4000
+
+
 # 4.3k-TEST-20210713
 
 General: 
