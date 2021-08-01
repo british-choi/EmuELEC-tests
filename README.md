@@ -9,6 +9,16 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 ## CHANGELOG
 
+# 4.3k-TEST-20210801
+
+* Fix create /storage/roms/amstradgx4000 on boot
+* Cleanup es_systems.cfg remove and add some extentions
+* Add Hurrican port (Handhelds currently have no working controls) 
+* Atomiswave: Remove workaround for nvmem
+* Bump Retroarch to 1.9.8
+* Bump dosbox-pure to v0.14
+* RG351V: Fix LCD streak issue
+
 # 4.3k-TEST-20210723
 General:
 
