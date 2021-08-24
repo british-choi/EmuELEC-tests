@@ -9,6 +9,22 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 ## CHANGELOG
 
+# 4.3k-TEST-20210825
+
+* Fix Stadia Gamepad. Thanks to amuzulo#1322 
+* Fix RA uses correct time zone
+* Fix issue with lzdoom loading .doom files and sound on mods
+* Update some sound packages
+* Fix es_systems.cfg: Add extensions to c64/c128 and Amiga (#677)
+* Add Cdogs-sdl to ports
+* Bump Retroarch to v1.9.8
+* Bump fbneo to 8ffe131 (support dsno's korean hack 8/22)
+* Bump dosbox-pure to v0.15
+* Bump devilutionX to 966cae8
+* Bump VVVVVV to 749a885
+* Bump mame2003-plus to d7dd8e7
+* Bump neocd_libretro to 323f102
+
 # 4.3k-TEST-20210801
 
 * Fix create /storage/roms/amstradgx4000 on boot
