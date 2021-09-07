@@ -9,6 +9,21 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 ## CHANGELOG
 
+# 4.3k-TEST-20210907
+
+* Add Abuse to ports NOTE: WIP controls
+* Add Nxengine-evo to ports (support korean language)
+* Add Streets of Rage Remake
+* Fix Retroarch display of CJK characters
+* Fix SFC not scraping
+* Updated most emulators and cores
+* Create folders for fbneo consoles
+
+Amlogic-ng: 
+
+* Add RTL8761 Bluetooth Support (#698)
+* Include ssv6xxx-aml drivers
+
 # 4.3k-TEST-20210825
 
 * Fix Stadia Gamepad. Thanks to amuzulo#1322 
