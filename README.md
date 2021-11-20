@@ -9,6 +9,54 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 ## CHANGELOG
 
+# 4.4k-TEST-20211120
+General
+* Retroarch: Bump to 02898a4 (v1.9.13.2)
+* retrorun: Modify OSH PB Controller for RG351P/V
+* libgo2: Support Analog stick for RG351P
+* emuelec-emulationstation: Bump to de0dbd2
+* ap6xxx-aml: Bump to 2b3ff5b
+* WIP: Experimental HDD loading retry
+* mount_romfs.sh: Fix missing then
+* autostart: Mount roms earlier
+* emuelec_autostart.sh: Fixed the problem that restore could not be done when using 2nd memory
+* Create folders for karaoke, gmloader
+* SDL_GameControllerDB: Update SAULABI & DragonRise Inc. joystick DB
+* gptokeyb: Bump to 0f10087
+
+Ports Update
+* abuse: change source and bump to eaeb893
+* devilutionX: Bump to a6f17fe (v1.3.0) with korean font
+* VVVVVV: Bump to 0c1f756
+* sdlpop: Bump to 6701645
+* nxengine-evo: Bump to 1764184
+* nxengine: Bump to 3680353
+* cdogs-sdl: Bump to 33872a6 (Version 1.1.1)
+
+Core Update
+* hypseus-singe: Bump to a40eae9 (v2.6.16)
+* Dosbox-svn: bump to 8e70e6e
+* dosbox-pure: Bump to 01f2f5f (v0.20)
+* pocketcdg: Bump to 6667414
+* EasyRPG: Bump to 69aaeb2 (0.7.0 "Sword")
+* fbneo: Bump to 5f9836a (support dsno's fbneo 20211027 roms)
+* mame2003-plus: Bump to bc21f6a
+* pcsx_rearmed: Bump to 9cc1b6c
+* prosystem: Bump to f8652c7
+* fmsx-libretro: Bump to 01731fc
+* gambatte: Bump to b0c79f0
+* swanstation: Bump to b6f76ff
+* Solarus: Use gptokeyb for control on RG351P/V
+* pcsx_rearmed: Bump to 589bd99
+* Yabasanshiro: Bump to 2848d50 
+* flycast: Bump to ae670ea
+* ppsspp: Bump to b6e7fe1
+* mupen64plus-nx-alt: Bump to 018ee72
+* dolphinSA: Bump to 735fd60
+* flycastsa: Bump to cc208ce
+* Bump some emulators and cores
+
+
 # 4.3k-TEST-20210907
 
 * Add Abuse to ports NOTE: WIP controls
