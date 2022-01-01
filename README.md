@@ -9,6 +9,10 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 ## CHANGELOG
 
+
+# 4.4k-TEST-20211231
+작성중
+
 # 4.4k-TEST-20211120
 General
 * Retroarch: Bump to 02898a4 (v1.9.13.2)
