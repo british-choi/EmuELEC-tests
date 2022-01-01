@@ -11,7 +11,26 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 
 
 # 4.4k-TEST-20211231
-작성중
+
+General
+* retrorun: Fix that hotkey do not input alone
+* Retroarch: Bump to 02898a4 (v1.9.14)
+* fbneo: Bump to 73164d2 (support dsno's 20211124 romset)
+* mame2003-plus: Bump to 99432c7
+* flycast: Bump to e9bc945
+* flycastsa: Bump to 0bb6fed
+* genesis-plus-gx: bump to 6f782a3
+* genesis-plus-gx-wide: Bump to fa71a16
+* emuelec-emulationstation: Bump to e0e8d09
+
+Ports Update
+* VVVVVV: Bump to a345cf9
+* sdlpop: Bump to d7ea0f6
+* tyrquake: Bump to 423a217
+* cdogs-sdl: Bump to 683b10d (v1.2.0)
+* hurrican: Bump to 446b7a1
+* nxengine-evo: Bump to e4b46c6
+* devilutionX: Bump to a4bc8fe 
 
 # 4.4k-TEST-20211120
 General
