@@ -20,7 +20,7 @@ This version will not appear as automatic update as it needs to be thoroughly te
 * Navigate to "EMUELEC 설정" -> "위험 구역" -> "EmuELEC 스크립트와 바이너리를 기본으로 초기화" 
 * The device will reboot, wait for the update to finish. 
 
-Please report any bugs/issues to https://github.com/EmuELEC/british-choi/issues
+Please report any bugs/issues to https://github.com/british-choi/EmuELEC/issues
 
 Known Issues under investigation: 
 * Sometimes the splash screen does not quit, so a reboot is needed
