@@ -10,7 +10,7 @@ For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been
 ## CHANGELOG
 # 4.4k-TEST-20220217
 
-Based on commit: https://github.com/EmuELEC/british-choi/commit/425e01e85c4da600730bb5647f5310bd4d669ce6
+Based on commit: https://github.com/british-choi/EmuELEC/commit/425e01e85c4da600730bb5647f5310bd4d669ce6
 
 This version will not appear as automatic update as it needs to be thoroughly tested, if you want to test this version you need to manually update it using this method:
 
