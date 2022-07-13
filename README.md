@@ -4,10 +4,22 @@ The files included in this repository are meant to be a TEST (beta) version of E
 While we do our best to test every change some changes might break your installation!  
 **DO NOT INSTALL IF YOU DO NOT FEEL COMFORTABLE DEALING WITH POTENTIAL BUGS**  
 For stable releases visit: https://github.com/british-choi/EmuELEC  
-For support: join us at discord: https://discord.gg/cbgtJTu A new forum has been open for emuelec: https://emuelec.org
-
 
 ## CHANGELOG
+# 4.6k-TEST-20220714
+
+Based on commit: https://github.com/british-choi/EmuELEC/commit/f603da100288528832ad4234a0de7a41799c5ccc
+
+Way too many changes to list here, please check the commit history: https://github.com/british-choi/EmuELEC/commits/dev
+
+As always before you do anything make sure you have a backup of your settings or SD card
+
+* New image available for older devices s905, s905x, s905(?) you can choose from `Amlogic-ng`  or `Amlogic-old` but this image is using a very old kernel and some emulators do not work including, duckstation, same_cdi, and probably others. This will hopefully fix issues that many older low end devices have with the `Amlogic-ng` image.
+
+* New devices supported, Hardkernel Odroid M1 (RK3568) `EmuELEC-OdroidM1` are now supported. 
+
+* Untested image `EmuELEC-OdroidM1` 
+
 # 4.4k-TEST-20220217
 
 Based on commit: https://github.com/british-choi/EmuELEC/commit/425e01e85c4da600730bb5647f5310bd4d669ce6
