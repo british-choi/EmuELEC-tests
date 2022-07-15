@@ -6,7 +6,7 @@ While we do our best to test every change some changes might break your installa
 For stable releases visit: https://github.com/british-choi/EmuELEC  
 
 ## CHANGELOG
-# 4.6k-TEST-20220714
+# 4.6k-TEST-20220715
 
 Based on commit: https://github.com/british-choi/EmuELEC/commit/f603da100288528832ad4234a0de7a41799c5ccc
 
